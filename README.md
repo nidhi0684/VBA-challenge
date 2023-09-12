@@ -6,19 +6,19 @@ The data you see in the excel spreadsheet "Multiple_year_stock_data_Macro.xlsm" 
 
 * Create a VBA script that loops through all the stocks one year at a time and outputs the following information:
 
- ** The ticker symbol
+  - The ticker symbol
 
- ** Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+  - Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
 
- ** The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+  - The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
 
- ** The total stock volume of the stock. 
+  - The total stock volume of the stock. 
  
- ** Add functionality to the script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume".
+  - Add functionality to the script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume".
 
- ** Make the appropriate adjustments to VBA script to enable it to run on every worksheet (that is, every year) at once.
+  - Make the appropriate adjustments to VBA script to enable it to run on every worksheet (that is, every year) at once.
 
- ** Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
+  - Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
 
 * Attach the screenshots of the results in a separate folder in git
 
