@@ -6,19 +6,19 @@ The data you see in the excel spreadsheet "Multiple_year_stock_data_Macro.xlsm" 
 
 * Create a VBA script that loops through all the stocks one year at a time and outputs the following information:
 
- * The ticker symbol
+ ** The ticker symbol
 
- * Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+ ** Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
 
- * The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+ ** The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
 
- * The total stock volume of the stock. 
+ ** The total stock volume of the stock. 
  
- * Add functionality to the script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume".
+ ** Add functionality to the script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume".
 
- * Make the appropriate adjustments to VBA script to enable it to run on every worksheet (that is, every year) at once.
+ ** Make the appropriate adjustments to VBA script to enable it to run on every worksheet (that is, every year) at once.
 
- * Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
+ ** Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
 
 * Attach the screenshots of the results in a separate folder in git
 
@@ -26,18 +26,18 @@ The data you see in the excel spreadsheet "Multiple_year_stock_data_Macro.xlsm" 
 
 ## Assumptions made while coding
 
-  * **1:** All the table header are same across all the sheets.
+  **1:** All the table header are same across all the sheets.
 
-  * **2:** Table location starts from cell (1,1).
+  **2:** Table location starts from cell (1,1).
 
-  * **3:** Table is already sorted by ticker and date information in ascending order.
+  **3:** Table is already sorted by ticker and date information in ascending order.
 
 ## How to execute code?
 
 ### Prerequisites  
  * Micro security should be enabled to trust VBA projects.
 
-## Steps to run
+### Steps to run
 
  * Open the excel spredsheet "Multiple_year_stock_data_Macro.xlsm".
 
